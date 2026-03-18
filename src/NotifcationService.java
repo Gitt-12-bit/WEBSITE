@@ -1,4 +1,4 @@
-public class Notifcation{
+public class NotifcationService{
 
     public void sendBookingConfirmation(Student student, Booking booking) {
         System.out.println("Confirmation email sent to " + student.getEmail());
